@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    background-color: black;
+    border-style: double;
+    border-width: 7px;
+    border-color: white;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav:hover{
+    background-color: rgb(8, 169, 80);
+    border-color: black;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: black;
+}
+.Education{
+    color: white;
+    font-size: 150%;
+    float: left;
+    height: 300px;
+    margin-top: 5%;
+}
+.Education:hover{
+    color: yellow;
+}
+.Education h1{
+    text-decoration: underline;
+}
+
+.skills{
+    color: white;
+    font-size: 150%;
+    float: right;
+    height: 300px;
+    margin-top: 5%;
+}
+.skills:hover{
+    color: rgb(48, 48, 155);
+}
+.skills h1{
+    text-decoration: underline;
+}
